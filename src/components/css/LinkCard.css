@@ -1,0 +1,37 @@
+.LinkCard{
+    background-color: #430faa;
+    border-radius: 3em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin:  0.25em;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    min-width: 240px;
+    padding-right: 5px;
+}
+.LinkCard p{
+    justify-self: center;
+}
+.LinkCard .icon{
+    margin: 10px 5px 10px 10px;
+}
+.LinkTitle {
+    margin: 1px;
+    margin-right: 10px;
+    font-size: medium;
+}
+.LinkDescription{ 
+    margin: 0 10px  5px 0;
+    font-size: small;
+    
+}
+.deleteBtn{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #430faa;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}

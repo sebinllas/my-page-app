@@ -1,0 +1,78 @@
+.icon {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  /* border: 1px solid rgb(175, 175, 175); */
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  padding: 0.2rem;
+  box-shadow: 0px 5px 14px -3px rgba(0, 0, 0, 0.36);
+  margin: 2px;
+  margin-right: 4px;
+  display: inline-block;
+}
+#loadingIcon {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.LogosContainer {
+  background-color:rgba(85, 255, 255, 1);
+  /* padding: 10px; */
+  overflow-x: scroll;
+  width: max-content;
+  height: min-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  scrollbar-width: 0px;
+}
+.LogosContainer::-webkit-scrollbar {
+  height:8px;
+  
+}
+.LogosContainer::-webkit-scrollbar {
+  display: none; 
+}
+.SelectLogo {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color:rgba(85, 255, 255, 1);
+  border-radius: 2rem;
+  width: 80%;
+  overflow: hidden;
+}
+.SelectLogo button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  padding: 0%;
+  height: 100%;
+  background-color: transparent;
+  width: 20px;
+}
+.SelectLogo button > img {
+  
+}
+/* #leftArrow {
+  position: absolute;
+  top: 15%;
+  left: -15px;
+}
+#rightArrow {
+  position: absolute;
+  top: 15%;
+  right: -15px;
+} */

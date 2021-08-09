@@ -1,0 +1,25 @@
+.Profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+.profilePhoto {
+	display: flex;
+	position: relative;
+	width: 4em;
+	height: 4em;
+	overflow: hidden;
+	border-radius: 50%;
+	justify-content: center;
+    border: 3px solid white;
+    background-color: white;
+}
+
+.profilePhoto img {
+	height: 100%;
+}
+.name {
+	margin: 5px 0 10px 0;
+}

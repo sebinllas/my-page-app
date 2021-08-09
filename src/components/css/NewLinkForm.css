@@ -1,0 +1,13 @@
+.NewLinkForm {
+  width: 100%;
+}
+input {
+  border-radius: 1rem;
+  background-color: #ebebeb;
+  height: 2rem;
+  width: 70%;
+  padding: 0 20px 0 20px;
+  border: 1px solid rgb(68, 68, 68);
+  /* -webkit-box-shadow: 4px 7px 13px -4px rgba(0, 0, 0, 0.45);
+  box-shadow: 4px 7px 13px -4px rgba(0, 0, 0, 0.45); */
+}

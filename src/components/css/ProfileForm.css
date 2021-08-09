@@ -1,0 +1,23 @@
+.ProfileForm {
+  width: 100%;
+}
+#profilePhotoInput {
+  height: auto;
+  padding: 1rem;
+}
+/* #profilePhotoInput::after {
+  content: "";
+  height: 3rem;
+  padding-top: 1rem;
+} */
+label {
+  text-align: center;
+  width: 80%;
+  font-size: 13.5px;
+}
+/* input[type="file"] {
+} */
+input::-webkit-file-upload-button {
+  border-radius: 1rem;
+  display: none;
+}

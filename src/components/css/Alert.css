@@ -1,0 +1,24 @@
+.Alert{
+    background-color: #fdfd08;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    
+}
+.Alert *{
+    margin: 0px;
+    padding: 0px;
+}
+.Alert > button{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+}
